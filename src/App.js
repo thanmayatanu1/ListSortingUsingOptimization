@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import DemoList from './components/Demo/DemoList';
+import  './App.css'; 
 
-function App() {
+const App = () => {
+  const items = [10, 9, 5, 3, 1];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <h1 className='App.header'>My Title</h1>
+      <DemoList title="Change List Title" items={items} />
     </div>
   );
-}
+};
 
 export default App;

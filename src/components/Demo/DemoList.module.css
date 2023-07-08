@@ -1,0 +1,18 @@
+.list {
+    margin: 30px;
+  }
+  
+  .list h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list li {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
